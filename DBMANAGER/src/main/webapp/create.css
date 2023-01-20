@@ -1,0 +1,126 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+#createheader{
+    border: 1px solid black;
+    padding: 1%;
+    text-align: center;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    font-family: 'Abril Fatface', cursive; 
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(68, 148, 246);    
+   /* background-color: black; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+#createbody{
+    background-image: url("https://img.freepik.com/free-vector/white-abstract-background-design_23-2148825582.jpg?w=2000");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#parent{
+    width: 1300px;
+    height: 700px;
+    display: flex;
+}
+#write{
+    width: 50%;
+    height: 100%;
+}
+#output{
+    height: auto;
+    width: 50%;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(68, 148, 246);
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+#result{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    color: rgb(68, 148, 246);
+    font-size: 25px;
+    font-weight: bolder;
+    overflow: scroll;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+#suggestion{
+    margin: 20px;
+    height: 510px;
+    background-color: rgb(68, 148, 246);
+    border-radius: 10px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#code{
+    width: 610px;
+    margin: 20px;
+    height: 90px;
+    font-size: 25px;
+    padding: 10px;
+    border:1px solid rgb(68, 148, 246);
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 10px;
+}
+button{
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+    background-color: white;
+    color:rgb(68, 148, 246);
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    font-size: 15px;
+}
+#button{
+	position:absolute;
+	bottom:30px;
+	right:30px;
+	background-color:rgb(68, 148, 246);
+	color:white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#button1{
+	color: rgb(68, 148, 246);
+	background-color:white;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 20px;
+    border-radius: 10px;
+
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+#tick{
+    height: 80px;
+    margin: 10px;
+}
+
+#result::-webkit-scrollbar {
+    display: none;
+  }
